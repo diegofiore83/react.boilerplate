@@ -1,0 +1,26 @@
+@import '../assets/scss/_colours';
+@import '../assets/scss/_animations';
+
+.App {
+    text-align: center;
+
+    .App-header {
+        background-color: $colour-secondary;
+        height: 150px;
+        padding: 20px;
+        color: $colour-light;
+
+        .App-logo {
+            animation: logo-spin infinite 20s linear;
+            height: 80px;
+        }          
+        
+        .App-title {
+            font-size: 1.5em;
+        }
+    }
+
+    .App-intro {
+        font-size: large;
+    }
+}
